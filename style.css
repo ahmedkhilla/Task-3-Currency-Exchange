@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to top, #304352, #d7d2cc);
+  height: 100vh;
+}
+.container {
+  background-color: #bbbec0;
+  width: 40%;
+  padding: 100px 0 100px 0;
+  margin: 40px auto 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 32px;
+}
+#select {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+}
+.input {
+  padding-left: 12px;
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+}
