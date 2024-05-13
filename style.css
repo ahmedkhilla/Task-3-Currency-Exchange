@@ -4,8 +4,14 @@
   box-sizing: border-box;
 }
 body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background: linear-gradient(to top, #304352, #d7d2cc);
-  height: 100vh;
+  height: calc(100vh - 3rem);
+}
+.primary-heading {
+  text-align: center;
+  margin: 3rem;
+  color: rgb(139, 120, 92);
 }
 .container {
   background-color: #bbbec0;
@@ -27,8 +33,16 @@ body {
 }
 .input {
   padding-left: 12px;
-  width: 200px;
+  width: 150px;
+  height: 50px;
   outline: none;
   border: none;
+  border-radius: 12px;
+}
+.btn--clear {
+  outline: none;
+  border: none;
+  width: 50px;
+  height: 50px;
   border-radius: 12px;
 }
